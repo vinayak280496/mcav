@@ -33,7 +33,7 @@ namespace WindowsFormsApplication2
 
             sql = "insert into userdata (username,email) values ('"+name+"','"+email+"')";
             cmd = new SqlCommand(sql, conn);
-            cmd.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();                        
             label3.Text = "Record Inserted";
         }
 
@@ -42,9 +42,14 @@ namespace WindowsFormsApplication2
             label3.ForeColor = Color.Red;
             connection = @"Data Source=DESKTOP-AC4AK63\SQLEXPRESS;Initial Catalog=PSELF;Integrated Security=True";
             conn = new SqlConnection(connection);
-            conn.Open();
+            conn.Open();            
             label3.Text = "connection established";
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
