@@ -1,0 +1,13 @@
+string connetionString;
+SqlConnection conn;
+SqlCommand cmd;
+string sql;1
+SqlDataAdapter adp = new SqlDataAdapter();
+
+connetionString = @"Data Source=DESKTOP-AC4AK63\SQLEXPRESS;Initial Catalog=PSELF;Integrated Security=True";
+conn = new SqlConnection(connetionString);
+conn.Open();
+
+sql = "insert into users_data (name,age,mobile,email) values('"+name+"','"+age+"','"+mobile+"','"+email+"')";
+cmd = new SqlCommand(sql, conn);
+cmd.ExecuteNonQuery();
