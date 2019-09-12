@@ -7,8 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
-using System.Data;
-using System.Data.SqlClient;
 
 namespace Desktop_Number_Count
 {
@@ -24,10 +22,12 @@ namespace Desktop_Number_Count
             
             for (int i = 1; i <= 100; i++)
             {
-                progressBar1.Value = i;             
+                label2.Text = ("Virus Uploading :"+i);
+                progressBar1.Value = i;                 
                 Thread.Sleep(100);
                 if(i==100){
-                    
+                    MessageBox.Show("Virus Upload Completed.");
+                    Application.Exit();                    
                 }
 
             }      
