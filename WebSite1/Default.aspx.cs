@@ -4,75 +4,111 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Text.RegularExpressions;
 using System.Data;
 using System.Data.SqlClient;
-using System.Threading;
 
 public partial class _Default : System.Web.UI.Page
-{
+{             
+    String cardNo;         
+    String pin;
+    String withAmount;
+    Boolean isLogin = false;
     string connetionString;
-    SqlConnection conn;
-    SqlCommand cmd;
-    string sql;
+    SqlConnection conn;       
     SqlDataAdapter adp = new SqlDataAdapter();
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        Label10.Text = "Waiting for connection...";
-        Thread.Sleep(1000);        
-        try
-        {
-            
-            Label10.Text = "Connection Successful";
-        }
-        catch (Exception ex) {                        
-            Label10.Text = ("Connection Failed.\n"+ex);
-        }
-        
-        
+        try { 
+        connetionString = @"Data Source=DESKTOP-AC4AK63;Initial Catalog=PSELF; user id = sa; password = Password@123;";           
+        conn = new SqlConnection(connetionString);
+        conn.Open();        
 
+            }catch(Exception ex){
+                lblstatus.Text = ("Connection Failed."+ex);
+            }
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        string nameval = @"^\w+@[a-zA-Z]";
-        string emailPattern = @"^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$";
-        string phonePattern = @"^[2-9]\d{2}-\d{3}-\d{4}$";
+        cardNo = TextBox1.Text;
+        pin = TextBox2.Text;
+        withAmount = TextBox3.Text;
+        SqlCommand command = new SqlCommand("select * from atm_entries where atm_num = @param1 AND atm_pin = @param2", conn);
 
-        bool isEmailValid = Regex.IsMatch(TextBox4.Text, emailPattern);
-        bool isZipValid = Regex.IsMatch(TextBox1.Text, nameval);
-        bool isPhoneValid = Regex.IsMatch(TextBox3.Text, phonePattern);  
+        command.Parameters.AddWithValue("@param1", cardNo); 
+        command.Parameters.AddWithValue("@param2", pin); 
+        SqlDataReader reader = command.ExecuteReader(); 
 
-        if (!isEmailValid)
-        {
-            Label10.Text=("Please enter a valid email");
-        }
+         if (reader.Read())             
+         { 
+             if (reader[1].ToString().Equals(pin))                 
+             {                     
+                 isLogin = true;                     
+                 lblstatus.Text = "Login success";                     
+                 TextBox2.Visible = true;                     
+                 TextBox3.Visible = true;                     
+                 TextBox3.Visible = true;                                      
+                 TextBox1.Visible = false;                 
+             }
+             else 
+             { 
+                 isLogin = false;
+                 lblstatus.Text = "Login failed";
+             }
+         }
+         else 
+         { 
+             lblstatus.Text = "Atm card not present or wrong password"; 
+         }
 
-        if (!isZipValid)
-        {
-            Label10.Text=("Please enter a valid zip code");
-        }
+         reader.Close(); 
 
-        if (!isPhoneValid)
-        {
-            Label10.Text=("Please enter a valid phone number");
-        }  
-        try
-        {
-            string name = TextBox1.Text;
-            string age = TextBox2.Text;
-            string mobile = TextBox3.Text;
-            string email = TextBox4.Text;
-
-            sql = "insert into users_data (name,age,mobile,email) values('"+name+"','"+age+"','"+mobile+"','"+email+"')";
-            cmd = new SqlCommand(sql, conn);
-            cmd.ExecuteNonQuery();
-            Label10.Text = "Data Inserted Successfully ";
-            
-        }
-        catch (Exception ex) {
-            Label9.Text = ex.ToString();
-        }
-        
     }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        cardNo = TextBox1.Text;
+        pin = TextBox2.Text;
+        withAmount = TextBox3.Text;
+        int balance;
+        SqlCommand checkExists = new SqlCommand("select balance from atm_entries where atm_num = @param1", conn);
+        checkExists.Parameters.AddWithValue("@param1", cardNo); 
+        SqlDataReader checkReader = checkExists.ExecuteReader();
+         if (checkReader.Read())                     
+         {                         
+             balance = (int)checkReader[0];                         
+             int withdrawal = Int32.Parse(withAmount); 
+              lblstatus.Text = "Balance: " + balance + " Withdrawal balance: " +withdrawal; 
+              if (balance < withdrawal)                         
+              {                             
+                  lblstatus.Text = "Insufficient Balance";                         
+              } 
+              else                         
+              {                             
+                  int remainingAmount = balance - withdrawal; 
+                  SqlCommand updateCommand = conn.CreateCommand(); 
+                  updateCommand.CommandText = "UPDATE atm_entries SET balance = @param1 WHERE atm_num = @param2 "; 
+                  updateCommand.Parameters.AddWithValue("@param1",  remainingAmount);       
+                  updateCommand.Parameters.AddWithValue("@param2", cardNo); 
+                  checkReader.Close();         
+                  var id = updateCommand.ExecuteScalar();       
+                  lblstatus.Text = "Transcation Successfull: Remaining Balance = " + remainingAmount;
+              }
+         } checkReader.Close(); 
+
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        cardNo = TextBox1.Text;             
+        SqlCommand command = new SqlCommand("select balance from atm_entries where atm_num = @param1", conn);
+        command.Parameters.AddWithValue("@param1", cardNo);             
+        SqlDataReader checkReader = command.ExecuteReader();             
+        if (checkReader.Read())             
+        {                 
+            lblstatus.Text = "Your balance: " + checkReader[0].ToString();             
+        }             
+        else             
+        {                 
+            lblstatus.Text = "Error try again";             
+        }         
+    }   
 }
