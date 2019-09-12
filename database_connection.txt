@@ -1,12 +1,25 @@
+##Add this files as Header files
+
+using System.Data;
+using System.Data.SqlClient;
+-------------------------------------------------
+## Define this below code in global code area
+
 string connetionString;
 SqlConnection conn;
 SqlCommand cmd;
 string sql;
 SqlDataAdapter adp = new SqlDataAdapter();
 
+-------------------------------------------------
+## Copy this below code in form load function
+
 connetionString = @"Data Source=DESKTOP-AC4AK63\SQLEXPRESS;Initial Catalog=PSELF;Integrated Security=True";
 conn = new SqlConnection(connetionString);
 conn.Open();
+
+-------------------------------------------------
+## Copy this below code in Button1
 
 sql = "insert into users_data (name,age,mobile,email) values('"+name+"','"+age+"','"+mobile+"','"+email+"')";
 cmd = new SqlCommand(sql, conn);

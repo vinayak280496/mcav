@@ -1,0 +1,7 @@
+C:\Users\CA172007\Desktop\Github\mcav\Desktop_Number_Count\Desktop_Number_Count\obj\x86\Debug\Desktop_Number_Count.Form1.resources
+C:\Users\CA172007\Desktop\Github\mcav\Desktop_Number_Count\Desktop_Number_Count\obj\x86\Debug\Desktop_Number_Count.Properties.Resources.resources
+C:\Users\CA172007\Desktop\Github\mcav\Desktop_Number_Count\Desktop_Number_Count\obj\x86\Debug\Desktop_Number_Count.csproj.GenerateResource.Cache
+C:\Users\CA172007\Desktop\Github\mcav\Desktop_Number_Count\Desktop_Number_Count\bin\Debug\Desktop_Number_Count.exe
+C:\Users\CA172007\Desktop\Github\mcav\Desktop_Number_Count\Desktop_Number_Count\bin\Debug\Desktop_Number_Count.pdb
+C:\Users\CA172007\Desktop\Github\mcav\Desktop_Number_Count\Desktop_Number_Count\obj\x86\Debug\Desktop_Number_Count.exe
+C:\Users\CA172007\Desktop\Github\mcav\Desktop_Number_Count\Desktop_Number_Count\obj\x86\Debug\Desktop_Number_Count.pdb
