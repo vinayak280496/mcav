@@ -1,7 +1,7 @@
 string connetionString;
 SqlConnection conn;
 SqlCommand cmd;
-string sql;1
+string sql;
 SqlDataAdapter adp = new SqlDataAdapter();
 
 connetionString = @"Data Source=DESKTOP-AC4AK63\SQLEXPRESS;Initial Catalog=PSELF;Integrated Security=True";

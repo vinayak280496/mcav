@@ -1,0 +1,7 @@
+C:\Users\CA172007\Desktop\Github\mcav\DatabaseConnection\DatabaseConnection\obj\x86\Debug\DatabaseConnection.Form1.resources
+C:\Users\CA172007\Desktop\Github\mcav\DatabaseConnection\DatabaseConnection\obj\x86\Debug\DatabaseConnection.Properties.Resources.resources
+C:\Users\CA172007\Desktop\Github\mcav\DatabaseConnection\DatabaseConnection\obj\x86\Debug\DatabaseConnection.csproj.GenerateResource.Cache
+C:\Users\CA172007\Desktop\Github\mcav\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe
+C:\Users\CA172007\Desktop\Github\mcav\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.pdb
+C:\Users\CA172007\Desktop\Github\mcav\DatabaseConnection\DatabaseConnection\obj\x86\Debug\DatabaseConnection.exe
+C:\Users\CA172007\Desktop\Github\mcav\DatabaseConnection\DatabaseConnection\obj\x86\Debug\DatabaseConnection.pdb
