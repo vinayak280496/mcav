@@ -19,6 +19,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        TextBox4.Visible = false;
         try { 
         connetionString = @"Data Source=DESKTOP-AC4AK63;Initial Catalog=PSELF; user id = sa; password = Password@123;";           
         conn = new SqlConnection(connetionString);
@@ -44,7 +45,7 @@ public partial class _Default : System.Web.UI.Page
              if (reader[1].ToString().Equals(pin))                 
              {                     
                  isLogin = true;                     
-                 lblstatus.Text = "Login success";                     
+                 lblstatus.Text = "Login success";                 
                  TextBox2.Visible = true;                     
                  TextBox3.Visible = true;                     
                  TextBox3.Visible = true;                                      
@@ -60,6 +61,19 @@ public partial class _Default : System.Web.UI.Page
          { 
              lblstatus.Text = "Atm card not present or wrong password"; 
          }
+
+         cardNo = TextBox1.Text;
+         SqlCommand cmd = new SqlCommand("select balance from atm_entries where atm_num = @param1", conn);
+         cmd.Parameters.AddWithValue("@param1", cardNo);
+         SqlDataReader checkReader = cmd.ExecuteReader();
+         if (checkReader.Read())
+         {
+             lblstatus.Text = "Your balance: " + checkReader[0].ToString();
+         }
+         else
+         {
+             lblstatus.Text = "Error try again";
+         }      
 
          reader.Close(); 
 
