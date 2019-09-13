@@ -23,7 +23,8 @@ public partial class _Default : System.Web.UI.Page
         try { 
         connetionString = @"Data Source=DESKTOP-AC4AK63;Initial Catalog=PSELF; user id = sa; password = Password@123;";           
         conn = new SqlConnection(connetionString);
-        conn.Open();        
+        conn.Open();
+        lblstatus.Text = ("Connected.");
 
             }catch(Exception ex){
                 lblstatus.Text = ("Connection Failed."+ex);
@@ -60,20 +61,7 @@ public partial class _Default : System.Web.UI.Page
          else 
          { 
              lblstatus.Text = "Atm card not present or wrong password"; 
-         }
-
-         cardNo = TextBox1.Text;
-         SqlCommand cmd = new SqlCommand("select balance from atm_entries where atm_num = @param1", conn);
-         cmd.Parameters.AddWithValue("@param1", cardNo);
-         SqlDataReader checkReader = cmd.ExecuteReader();
-         if (checkReader.Read())
-         {
-             lblstatus.Text = "Your balance: " + checkReader[0].ToString();
-         }
-         else
-         {
-             lblstatus.Text = "Error try again";
-         }      
+         }         
 
          reader.Close(); 
 

@@ -1,0 +1,4 @@
+C:\Users\CA172007\Desktop\Github\mcav\DataReaderConsole\DataReaderConsole\bin\Debug\DataReaderConsole.exe
+C:\Users\CA172007\Desktop\Github\mcav\DataReaderConsole\DataReaderConsole\bin\Debug\DataReaderConsole.pdb
+C:\Users\CA172007\Desktop\Github\mcav\DataReaderConsole\DataReaderConsole\obj\x86\Debug\DataReaderConsole.exe
+C:\Users\CA172007\Desktop\Github\mcav\DataReaderConsole\DataReaderConsole\obj\x86\Debug\DataReaderConsole.pdb

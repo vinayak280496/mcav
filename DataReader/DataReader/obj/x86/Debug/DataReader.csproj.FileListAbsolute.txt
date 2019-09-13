@@ -1,0 +1,7 @@
+C:\Users\CA172007\Desktop\Github\mcav\DataReader\DataReader\bin\Debug\DataReader.exe
+C:\Users\CA172007\Desktop\Github\mcav\DataReader\DataReader\bin\Debug\DataReader.pdb
+C:\Users\CA172007\Desktop\Github\mcav\DataReader\DataReader\obj\x86\Debug\DataReader.Form1.resources
+C:\Users\CA172007\Desktop\Github\mcav\DataReader\DataReader\obj\x86\Debug\DataReader.Properties.Resources.resources
+C:\Users\CA172007\Desktop\Github\mcav\DataReader\DataReader\obj\x86\Debug\DataReader.csproj.GenerateResource.Cache
+C:\Users\CA172007\Desktop\Github\mcav\DataReader\DataReader\obj\x86\Debug\DataReader.exe
+C:\Users\CA172007\Desktop\Github\mcav\DataReader\DataReader\obj\x86\Debug\DataReader.pdb

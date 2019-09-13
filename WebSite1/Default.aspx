@@ -70,6 +70,64 @@
                         Text="Withdraw Amout" />
                 </td>
             </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td class="style1">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td class="style1">
+                    &nbsp;</td>
+                <td>
+                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
+                        CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" 
+                        GridLines="None" Width="203px">
+                        <AlternatingRowStyle BackColor="White" />
+                        <Columns>
+                            <asp:BoundField DataField="atm_num" HeaderText="ATM Number" 
+                                SortExpression="atm_num" />
+                            <asp:BoundField DataField="atm_pin" HeaderText="ATM Pin" 
+                                SortExpression="atm_pin" />
+                            <asp:BoundField DataField="balance" HeaderText="Account Balance" 
+                                SortExpression="balance" />
+                        </Columns>
+                        <EditRowStyle BackColor="#2461BF" />
+                        <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                        <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                        <RowStyle BackColor="#EFF3FB" />
+                        <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                        <SortedAscendingCellStyle BackColor="#F5F7FB" />
+                        <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+                        <SortedDescendingCellStyle BackColor="#E9EBEF" />
+                        <SortedDescendingHeaderStyle BackColor="#4870BE" />
+                    </asp:GridView>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                        ConnectionString="<%$ ConnectionStrings:PSELFConnectionString %>" 
+                        SelectCommand="SELECT * FROM [atm_entries]"></asp:SqlDataSource>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td class="style1">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td class="style1">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
         </table>
     
     </div>
