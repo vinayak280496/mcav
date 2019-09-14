@@ -18,9 +18,9 @@ SqlDataAdapter adp = new SqlDataAdapter();
 ## Copy this below code in form load function
 -------------------------------------------------
 
-connetionString = @"Data Source=DESKTOP-AC4AK63;Initial Catalog=PSELF; user id = sa; password = Password@123;";           
-        conn = new SqlConnection(connetionString);
-        conn.Open();
+connetionString = @"Data Source=DESKTOP-AC4AK63;Initial Catalog=PSELF; user id = sa; password = Password@123;";
+conn = new SqlConnection(connetionString);
+conn.Open();
 
 -------------------------------------------------
 ## Copy this below code in Button1
