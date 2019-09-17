@@ -26,12 +26,12 @@ namespace ArthmaticOperation
                 sub = num1 - num2;
                 mul = num1 * num2;
                 div = num1 / num2;
-                Console.WriteLine("------------------------------------------");
+                Console.WriteLine("----------------------------------------------------");
                 Console.WriteLine("Addition of \t\t" + num1 + " and " + num2 + " = " + add);
                 Console.WriteLine("\nSubstration of \t\t" + num1 + " and " + num2 + " = " + sub);
                 Console.WriteLine("\nMultiplication of \t" + num1 + " and " + num2 + " = " + mul);
                 Console.WriteLine("\nDivision of \t\t" + num1 + " and " + num2 + " = " + div);
-                Console.WriteLine("------------------------------------------");           
+                Console.WriteLine("----------------------------------------------------");
             }
             catch (Exception ex) {
                 Console.WriteLine("____________________\n\n");
