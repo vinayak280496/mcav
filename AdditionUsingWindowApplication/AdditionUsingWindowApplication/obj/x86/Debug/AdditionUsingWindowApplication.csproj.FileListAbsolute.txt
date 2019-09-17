@@ -1,0 +1,7 @@
+C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\bin\Debug\AdditionUsingWindowApplication.exe
+C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\bin\Debug\AdditionUsingWindowApplication.pdb
+C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.Form1.resources
+C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.Properties.Resources.resources
+C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.csproj.GenerateResource.Cache
+C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.exe
+C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.pdb

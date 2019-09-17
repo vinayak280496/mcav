@@ -1,0 +1,4 @@
+C:\Users\CA172007\Desktop\Github\mcav\ArthmaticOperation\ArthmaticOperation\bin\Debug\ArthmaticOperation.exe
+C:\Users\CA172007\Desktop\Github\mcav\ArthmaticOperation\ArthmaticOperation\bin\Debug\ArthmaticOperation.pdb
+C:\Users\CA172007\Desktop\Github\mcav\ArthmaticOperation\ArthmaticOperation\obj\x86\Debug\ArthmaticOperation.exe
+C:\Users\CA172007\Desktop\Github\mcav\ArthmaticOperation\ArthmaticOperation\obj\x86\Debug\ArthmaticOperation.pdb
