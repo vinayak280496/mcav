@@ -36,7 +36,7 @@ namespace AdditionUsingWindowApplication
             label3.ForeColor = Color.Maroon;
             label4.ForeColor = Color.Red;
             label3.Text = "Output will be display here";
-            label4.Text = "Program is developed by CA172007 \n(Shubham Sajannavar) MCA 5th.";            
+            label4.Text = "Program is developed by CA172007 (Shubham Sajannavar) MCA 5th.";            
         }
     }
 }
