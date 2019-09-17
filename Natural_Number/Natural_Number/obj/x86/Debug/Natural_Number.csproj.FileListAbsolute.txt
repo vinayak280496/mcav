@@ -1,0 +1,5 @@
+C:\Users\CA172007\Desktop\Github\mcav\Natural_Number\Natural_Number\bin\Debug\Natural_Number.exe
+C:\Users\CA172007\Desktop\Github\mcav\Natural_Number\Natural_Number\bin\Debug\Natural_Number.pdb
+C:\Users\CA172007\Desktop\Github\mcav\Natural_Number\Natural_Number\obj\x86\Debug\Natural_Number.csprojResolveAssemblyReference.cache
+C:\Users\CA172007\Desktop\Github\mcav\Natural_Number\Natural_Number\obj\x86\Debug\Natural_Number.exe
+C:\Users\CA172007\Desktop\Github\mcav\Natural_Number\Natural_Number\obj\x86\Debug\Natural_Number.pdb
