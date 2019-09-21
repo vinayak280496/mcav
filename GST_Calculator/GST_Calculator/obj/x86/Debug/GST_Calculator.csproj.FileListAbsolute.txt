@@ -1,0 +1,7 @@
+C:\Users\Lusifer\AppData\Local\Temporary Projects\GST_Calculator\bin\Debug\GST_Calculator.exe
+C:\Users\Lusifer\AppData\Local\Temporary Projects\GST_Calculator\bin\Debug\GST_Calculator.pdb
+C:\Users\Lusifer\AppData\Local\Temporary Projects\GST_Calculator\obj\x86\Debug\GST_Calculator.Form1.resources
+C:\Users\Lusifer\AppData\Local\Temporary Projects\GST_Calculator\obj\x86\Debug\GST_Calculator.Properties.Resources.resources
+C:\Users\Lusifer\AppData\Local\Temporary Projects\GST_Calculator\obj\x86\Debug\GST_Calculator.csproj.GenerateResource.Cache
+C:\Users\Lusifer\AppData\Local\Temporary Projects\GST_Calculator\obj\x86\Debug\GST_Calculator.exe
+C:\Users\Lusifer\AppData\Local\Temporary Projects\GST_Calculator\obj\x86\Debug\GST_Calculator.pdb
