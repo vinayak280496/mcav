@@ -112,23 +112,7 @@
                         SelectCommand="SELECT * FROM [atm_entries]"></asp:SqlDataSource>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    &nbsp;</td>
-                <td class="style1">
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td>
-                    &nbsp;</td>
-                <td class="style1">
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
-            </tr>
-        </table>
+            </table>
     
     </div>
     </form>
