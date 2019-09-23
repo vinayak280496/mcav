@@ -1,0 +1,8 @@
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\bin\Debug\DollerToINR.exe.config
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\bin\Debug\DollerToINR.exe
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\bin\Debug\DollerToINR.pdb
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.Form1.resources
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.Properties.Resources.resources
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.csproj.GenerateResource.Cache
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.exe
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.pdb

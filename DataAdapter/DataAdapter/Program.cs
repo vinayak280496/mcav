@@ -16,7 +16,7 @@ namespace DataAdapter
 
             SqlDataAdapter adp = new SqlDataAdapter(query,conn);
             DataSet ds = new DataSet();
-            adp.Fill(ds, "user_Data");
+            adp.Fill(ds, "user_data");
             Console.WriteLine(ds.GetXml());
             Console.ReadKey();
         }
