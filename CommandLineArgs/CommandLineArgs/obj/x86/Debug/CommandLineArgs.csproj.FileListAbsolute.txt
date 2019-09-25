@@ -1,0 +1,4 @@
+C:\Users\Lusifer\AppData\Local\Temporary Projects\CommandLineArgs\bin\Debug\CommandLineArgs.exe
+C:\Users\Lusifer\AppData\Local\Temporary Projects\CommandLineArgs\bin\Debug\CommandLineArgs.pdb
+C:\Users\Lusifer\AppData\Local\Temporary Projects\CommandLineArgs\obj\x86\Debug\CommandLineArgs.exe
+C:\Users\Lusifer\AppData\Local\Temporary Projects\CommandLineArgs\obj\x86\Debug\CommandLineArgs.pdb

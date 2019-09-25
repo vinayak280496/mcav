@@ -1,0 +1,4 @@
+C:\Users\Lusifer\Desktop\Github\mcav\Enumerations\Enumerations\bin\Debug\Enumerations.exe
+C:\Users\Lusifer\Desktop\Github\mcav\Enumerations\Enumerations\bin\Debug\Enumerations.pdb
+C:\Users\Lusifer\Desktop\Github\mcav\Enumerations\Enumerations\obj\x86\Debug\Enumerations.exe
+C:\Users\Lusifer\Desktop\Github\mcav\Enumerations\Enumerations\obj\x86\Debug\Enumerations.pdb
