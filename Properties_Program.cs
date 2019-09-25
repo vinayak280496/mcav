@@ -40,21 +40,24 @@ namespace ConsoleApplication1
 
             static void Main(string[] args)
             {
+                Console.Title = "file:///C:/Users/CA172007/AppData/Local/Temporary Projects/ConsoleApplication1/bin/Debug/ConsoleApplication1.EXE";
                 Console.WriteLine("---------------------------------------------------------");
                 Console.WriteLine("This Program is developed by Shubham Sajannavar");
                 Console.WriteLine("Roll No : CA172007, Rani Channamma University, Belgavi");
                 Console.WriteLine("---------------------------------------------------------");
                 PropertiesDemo p = new PropertiesDemo();
-                p.Name = "Shubham";
-                p.Age = 25;
+                p.Name = "John";
+                p.Age = 12;
 
                 PropertiesDemo d = new PropertiesDemo();
-                d.Name = "Tony Stark";
-                d.Age = -1;
+                d.Name = "Rohn";
+                d.Age = 14;
 
                 Console.WriteLine("\n {0} : {1}", p.Name, p.Age);
                 Console.WriteLine("\n {0} : {1}", d.Name, d.Age);
+                
                 Console.ReadLine();
+                
             }
         }
     }
