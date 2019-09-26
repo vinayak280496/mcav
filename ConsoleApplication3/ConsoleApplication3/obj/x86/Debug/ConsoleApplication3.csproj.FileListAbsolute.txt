@@ -2,3 +2,4 @@ C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication3\ConsoleApplication3\bi
 C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
 C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.exe
 C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.pdb
+C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache

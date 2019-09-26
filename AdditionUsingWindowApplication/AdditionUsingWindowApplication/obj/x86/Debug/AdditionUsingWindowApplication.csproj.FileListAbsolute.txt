@@ -5,3 +5,4 @@ C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsi
 C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.csproj.GenerateResource.Cache
 C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.exe
 C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.pdb
+C:\Users\CA172007\Desktop\Github\mcav\AdditionUsingWindowApplication\AdditionUsingWindowApplication\obj\x86\Debug\AdditionUsingWindowApplication.csprojResolveAssemblyReference.cache

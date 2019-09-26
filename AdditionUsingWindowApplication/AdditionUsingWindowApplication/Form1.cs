@@ -23,7 +23,7 @@ namespace AdditionUsingWindowApplication
                 int a = Convert.ToInt32(textBox1.Text);
                 int b = Convert.ToInt32(textBox2.Text);
                 int c = a + b;
-                label3.Text = ("Addition of " + a + " and " + b + " is " + c);
+                textBox3.Text = (c.ToString());
             }
             catch (Exception ex) {
                 MessageBox.Show("Enter valid Numbers"+ex);                
@@ -33,9 +33,9 @@ namespace AdditionUsingWindowApplication
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            textBox3.Enabled = false;
             label3.ForeColor = Color.Maroon;
-            label4.ForeColor = Color.Red;
-            label3.Text = "Output will be display here";
+            label4.ForeColor = Color.Red;            
             label4.Text = "Program is developed by CA172007 (Shubham Sajannavar) MCA 5th.";            
         }
     }
