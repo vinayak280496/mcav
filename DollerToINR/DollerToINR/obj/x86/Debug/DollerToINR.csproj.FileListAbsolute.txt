@@ -6,3 +6,4 @@ C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\Doll
 C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.csproj.GenerateResource.Cache
 C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.exe
 C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.pdb
+C:\Users\CA172007\Desktop\Github\mcav\DollerToINR\DollerToINR\obj\x86\Debug\DollerToINR.csprojResolveAssemblyReference.cache

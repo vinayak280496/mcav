@@ -14,6 +14,8 @@ namespace DollerToINR
 {
     public partial class Form1 : Form
     {
+        string number = "1234567890";
+        Double doller = 70.88;
         public Form1()
         {
             InitializeComponent();
@@ -21,63 +23,34 @@ namespace DollerToINR
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1.ForeColor = Color.Red;
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            label4.Text = ("One doller $ is : "+doller.ToString());
+                label4.ForeColor=Color.Red;
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {                       
-            
-            string conn = @"Data Source=DESKTOP-AC4AK63;Initial Catalog=PSELF; User ID=sa;Password=Password@123";
-            string query = "SELECT * FROM user_data";
+        {
+            string cur1 = textBox1.Text;
+            string cur2 = textBox2.Text;
 
-            SqlDataAdapter adp = new SqlDataAdapter(query, conn);
-            DataSet ds = new DataSet();
-            adp.Fill(ds, "user_data");
-            dataGridView1.DataSource=ds.Tables["user_data"];
-            label1.Text = "Records Updated";
+
+            if (!textBox1.Text.Contains(number))
+            {
+                double converttoinr = doller * (Convert.ToDouble(cur1));
+                textBox2.Text = converttoinr.ToString();
+
+            }
+            else {
+                double converttodollr = doller * (Convert.ToDouble(cur2));
+                textBox1.Text = converttodollr.ToString();
+            }
+                        
             
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string conn = @"Data Source=DESKTOP-AC4AK63;Initial Catalog=PSELF; User ID=sa;Password=Password@123";
-            string query = "SELECT * FROM user_data";
-
-            SqlDataAdapter adp = new SqlDataAdapter(query, conn);
-            DataSet ds = new DataSet();
-            adp.Fill(ds, "user_data");
-
-            ds.Tables["user_data"].Rows[1]["id"] = "100";
-            
-            label1.Text = ("Data Updated Successfully");
-            dataGridView1.DataSource = ds.Tables["user_data"];       
-
+            Application.Exit();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            string conn = @"Data Source=DESKTOP-AC4AK63;Initial Catalog=PSELF; User ID=sa;Password=Password@123";
-            string query = "SELECT * FROM user_data";
-
-            SqlDataAdapter adp = new SqlDataAdapter(query, conn);
-            DataSet ds = new DataSet();
-            adp.Fill(ds, "user_data");
-            DataRow row = ds.Tables["user_data"].NewRow();
-            row["id"]="1212";
-            row["name"] = "asdasds";
-            row["last_name"] = "asfd";
-            ds.Tables["user_data"].Rows.Add(row);
-
-            SqlCommandBuilder scb = new SqlCommandBuilder(adp);
-            adp.Update(ds.Tables["user_data"]);
-
-            label1.Text = ("Data Inserted Successfully");            
-            dataGridView1.DataSource = ds.Tables["user_data"];                
-        }
+        
     }
 }
