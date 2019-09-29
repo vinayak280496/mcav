@@ -1,0 +1,4 @@
+C:\Users\Lusifer\AppData\Local\Temporary Projects\ExcelWok\bin\Debug\ExcelWok.exe
+C:\Users\Lusifer\AppData\Local\Temporary Projects\ExcelWok\bin\Debug\ExcelWok.pdb
+C:\Users\Lusifer\AppData\Local\Temporary Projects\ExcelWok\obj\x86\Debug\ExcelWok.exe
+C:\Users\Lusifer\AppData\Local\Temporary Projects\ExcelWok\obj\x86\Debug\ExcelWok.pdb
