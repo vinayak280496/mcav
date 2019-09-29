@@ -1,0 +1,4 @@
+C:\Users\Lusifer\AppData\Local\Temporary Projects\UpperToLower\bin\Debug\UpperToLower.exe
+C:\Users\Lusifer\AppData\Local\Temporary Projects\UpperToLower\bin\Debug\UpperToLower.pdb
+C:\Users\Lusifer\AppData\Local\Temporary Projects\UpperToLower\obj\x86\Debug\UpperToLower.exe
+C:\Users\Lusifer\AppData\Local\Temporary Projects\UpperToLower\obj\x86\Debug\UpperToLower.pdb
