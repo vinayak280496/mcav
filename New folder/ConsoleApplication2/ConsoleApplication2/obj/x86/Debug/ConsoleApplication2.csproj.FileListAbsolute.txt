@@ -1,0 +1,4 @@
+C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+C:\Users\CA172007\Desktop\Github\mcav\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb
