@@ -1,0 +1,4 @@
+C:\Users\CA172007\Desktop\Github\mcav\Matricies_Multiplication\Matricies_Multiplication\bin\Debug\Matricies_Multiplication.exe
+C:\Users\CA172007\Desktop\Github\mcav\Matricies_Multiplication\Matricies_Multiplication\bin\Debug\Matricies_Multiplication.pdb
+C:\Users\CA172007\Desktop\Github\mcav\Matricies_Multiplication\Matricies_Multiplication\obj\x86\Debug\Matricies_Multiplication.exe
+C:\Users\CA172007\Desktop\Github\mcav\Matricies_Multiplication\Matricies_Multiplication\obj\x86\Debug\Matricies_Multiplication.pdb
